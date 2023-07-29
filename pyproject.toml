@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "download-youtube-music"
+version = "0.0.0"
+description = "Helps you download all the songs on your YouTube music playlist"
+authors = ["Aadit Kamat <30969577+aaditkamat@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "download_youtube_music"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ytmusicapi = "^1.1.1"
+youtube-dl = "^2021.12.17"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
