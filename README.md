@@ -40,7 +40,9 @@ PLAYLIST_IDS='[PLu0ocO48LFms5WsI1ipaeanxqRjn2fC_5]'
 where 'PLu0ocO48LFms5WsI1ipaeanxqRjn2fC_5' is the id of the ['Sweaty EDM Workout'](https://music.youtube.com/playlist?list=RDCLAK5uy_m-YJyz6cquN8dHWwbuwWJpoY7gC2dSaVo&feature=share&playnext=1)
 
 After that, execute the `download.py` script. Make sure that you update the options to be passed down to the [YouTube downloader](https://github.com/ytdl-org/youtube-dl) using 
-the `ydl_opts`. For more details, check out [the Python file](https://github.com/ytdl-org/youtube-dl/blob/abef53466da1f7d2e79f5644718a2cf7524abc49/youtube_dl/YoutubeDL.py#L157).
+the `ydl_opts`. 
+
+For more details, check out [the Python file](https://github.com/ytdl-org/youtube-dl/blob/abef53466da1f7d2e79f5644718a2cf7524abc49/youtube_dl/YoutubeDL.py#L157).
 
 
 
