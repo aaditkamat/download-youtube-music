@@ -34,6 +34,7 @@ if __name__ == '__main__':
         logging.debug(f'Downloading playlist {playlistId}')
         playlist = ytmusic.get_playlist(playlistId=playlistId)
         video_ids = [track['videoId'] for track in playlist['tracks']]
+        logging.debug(f'Video IDs: {video_ids}')
         ydl_opts = {
             'verbose': True,
             'noplaylist': True,
